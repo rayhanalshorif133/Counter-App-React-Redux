@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Counter() {
+export default function PureReactCounter() {
 
     const [count, setCount] = useState(0);
 
@@ -14,7 +14,7 @@ export default function Counter() {
 
     return (
         <div>
-            <h2>Counter App</h2>
+            <h2>Counter App Using Pure React</h2>
 
             <h3>Count : {count}</h3>
 
