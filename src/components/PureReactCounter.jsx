@@ -12,6 +12,10 @@ export default function PureReactCounter() {
         setCount(count - 1);
     }
 
+    const handleReset = () => {
+        setCount(0);
+    }
+
     return (
         <div>
             <h2>Counter App Using Pure React</h2>
@@ -20,6 +24,7 @@ export default function PureReactCounter() {
 
             <button onClick={handleIncrement}>Increment</button>
             <button onClick={handleDecrement}>Decrement</button>
+            <button onClick={handleReset}>Reset</button>
         </div>
     )
 }

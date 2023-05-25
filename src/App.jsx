@@ -9,7 +9,8 @@ function App() {
     <>
       <div className="App">
         <h1>Welcome to <a href="https://reactjs.org">React.js!</a> and <a href="https://redux.js.org/">redux</a>!</h1>
-        {/* <PureReactCounter /> */}
+        <PureReactCounter />
+        <hr />
         <ReduxCounter />
       </div>
     </>
